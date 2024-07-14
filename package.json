@@ -1,0 +1,25 @@
+{
+  "name": "hw_7.4",
+  "version": "1.0.0",
+  "description": "Test project",
+  "main": "index.js",
+  "scripts": {
+    "test1": "jest",
+    "test": "jest --runInBand "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GrigoriyKaygorodtsev/HW_7.4.git"
+  },
+  "author": "Grigoriy Kaygorodtsev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GrigoriyKaygorodtsev/HW_7.4/issues"
+  },
+  "homepage": "https://github.com/GrigoriyKaygorodtsev/HW_7.4#readme",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-puppeteer": "^10.0.1",
+    "puppeteer": "^22.12.1"
+  }
+}
