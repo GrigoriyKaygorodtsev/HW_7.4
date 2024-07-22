@@ -1,25 +1,16 @@
 {
-  "name": "hw_7.4",
+  "name": "jsaqa_3_3",
   "version": "1.0.0",
-  "description": "Test project",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test1": "jest",
-    "test": "jest --runInBand "
+    "test": "jest"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/GrigoriyKaygorodtsev/HW_7.4.git"
-  },
-  "author": "Grigoriy Kaygorodtsev",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/GrigoriyKaygorodtsev/HW_7.4/issues"
-  },
-  "homepage": "https://github.com/GrigoriyKaygorodtsev/HW_7.4#readme",
-  "devDependencies": {
-    "jest": "^29.7.0",
-    "jest-puppeteer": "^10.0.1",
-    "puppeteer": "^22.12.1"
+  "dependencies": {
+    "jest": "^27.3.1",
+    "jest-puppeteer": "^6.0.0",
+    "puppeteer": "^13.3.2"
   }
 }

@@ -2,7 +2,8 @@ let page;
 
 beforeEach(async () => {
   page = await browser.newPage();
-})
+});
+
 afterEach(() => {
   page.close();
 });
@@ -57,5 +58,3 @@ describe("Added three new tests - headers of other application page", () => {
     expect(title).toContain("The AI Powered Developer Platform. · GitHub");
   }, 60000);
 });
-
-
